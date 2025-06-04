@@ -35,12 +35,35 @@ Control SuperTuxKart with Hands and Feet
 
 
 
-**Steps for dev:**
+**Steps:**
 
-✅ Step 1 – Install Required Libraries
+✅ Step 1 – Installed Required Libraries
 
     pip install opencv-python mediapipe pyautogui keyboard
 
-✅ Step 2 – Create a Python Script to Open the Camera
+✅ Step 2 – Created a Python Script to Open the Camera
 
    camera_test.py
+
+✅ Step 3 – Created a Python Script to Detect Hands 
+
+   mediapipe_test.py
+
+✅ Step 4 – Use Hand Landmarks to Detect Left or Right Movement
+
+   Use the position of my hand to decide if I’m turning left, right, or center — so later we can control steering in the game.
+
+   turning_test.py
+
+
+
+
+
+
+
+
+
+
+
+
+   
