@@ -31,7 +31,7 @@ Control SuperTuxKart with Hands and Feet
      A Python library for controlling your keyboard and mouse programmatically.
 
 
-         👁️ Webcam (via OpenCV)
+      👁️ Webcam (via OpenCV)
                  ↓
      Frame-by-frame video captured
                  ↓
