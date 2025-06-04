@@ -41,3 +41,6 @@ Control SuperTuxKart with Hands and Feet
 
     pip install opencv-python mediapipe pyautogui keyboard
 
+✅ Step 2 – Create a Python Script to Open the Camera
+
+   camera_test.py
