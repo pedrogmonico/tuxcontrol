@@ -31,22 +31,7 @@ Control SuperTuxKart with Hands and Feet
      A Python library for controlling your keyboard and mouse programmatically.
 
 
-      👁️ Webcam (via OpenCV)
-                 ↓
-     Frame-by-frame video captured
-                 ↓
-       Analyzed using MediaPipe
-      ↙️                           ↘️
- Detect hand                 Detect pose
-  (x-position)              (heel y-position)
-      ↓                           ↓
-pyautogui sends key    pyautogui sends key
- press ← or →            press ↑ or ↓
-      ↓                           ↓
-   Game receives simulated key press
-             ↓
-     Your body controls the game!
-
+![image](https://github.com/user-attachments/assets/be73c066-0ddf-4b0b-9124-c6f1e6a75df0)
 
 
 
