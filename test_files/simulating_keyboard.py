@@ -71,3 +71,14 @@ keyboard.release(Key.left)
 keyboard.release(Key.right)
 cap.release()
 cv2.destroyAllWindows()
+
+"""
+It loops through each hand's landmarks and its handedness label (Left or Right). 
+NOTE:. results.multi_hand_landmarks = [Hand1, Hand2]
+       results.multi_handedness = [RightLabel, LeftLabel]
+
+By checking the vertical position (y) of each wrist, it determines whether the user is turning left, right, or going straight.
+
+Based on this, the program simulates pressing the corresponding arrow key and displays the direction on the screen. It avoids pressing the same key repeatedly by tracking the last direction.
+
+"""
