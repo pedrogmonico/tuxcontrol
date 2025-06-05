@@ -1,5 +1,5 @@
 # TuxControl
-Control SuperTuxKart with Hands and Feet
+Control SuperTuxKart with Hands 
 
 🧠 Technologies Used in the Project
 
@@ -32,16 +32,7 @@ Control SuperTuxKart with Hands and Feet
 
 ![image](https://github.com/user-attachments/assets/be73c066-0ddf-4b0b-9124-c6f1e6a75df0)
 
-6. FastAPI 🚀
 
-     A modern, fast (high-performance) Python web framework for building APIs
-     Supports WebSockets for real-time communication between your React frontend and Python backend
-
-5. React ⚛️
-
-     A popular JavaScript library for building user interfaces
-     Enables seamless integration of webcam video capture in the browser
-     Can send webcam frames or processed data to the backend via WebSockets or HTTP
 
 
 
