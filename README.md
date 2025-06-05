@@ -83,43 +83,8 @@ Control SuperTuxKart with Hands and Feet
 
 ✅ Step 7 – Final key detector main script
 
-      key_detect.py
+      main.py
+
+Thanks for checking out this project! Controlling the keyboard with hand detection is just the beginning, there’s so much potential to explore in gesture-based interfaces. Feel free to try it out, experiment with it, and see what you can build on top of it. If you have ideas for improvements, want to collaborate, or just have questions, don’t hesitate to reach out. Let’s connect and make it even better together!
 
 
-
-**backend steps:**
-
-✅ Step 1 – Installed Required Libraries
-
-    pip install fastapi uvicorn python-multipart aiofiles
-
-
-✅ Step 2 – Virtual environment(venv)
-
-   Install and use a virtual environment (venv) to keep all the project’s Python packages separate and organized, and ensure the project runs smoothly and consistently on any machine.
-
-   create env:    
-
-            python3 -m venv venv
-   activate:
-
-            source venv/bin/activate
-   run fastapi app:
-
-            uvicorn test:app --reload
-
-✅ Step 3 – Install the backend dependencies
-
-      pip install -r requirements.txt
-
-
-**frontend steps:**
-
-✅ Step 1 – Set React App
-
-      cd frontend
-      npm create vite@latest
-      npm install && npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
-
-
-   
